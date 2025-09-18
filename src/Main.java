@@ -44,6 +44,11 @@ public class Main {
         System.out.println("Pon otro numero");
         int lectura3 = sc.nextInt();
         lecturaSensores(lectura1, lectura2, lectura3);
+        //Ejercicio 10
+        Scanner k = new Scanner(System.in);
+        System.out.println("Pon un numero");
+        int num = sc.nextInt();
+        pasosRobot(num);
 
     }//Ejercicio1
 
@@ -97,5 +102,11 @@ public class Main {
         } else {
             System.out.println(y + " El numero es el mas pequeño");
         }
+    }//Ejercicio 10
+    public static void pasosRobot(int n) {
+        for (int i = 1; i <= n; i++) {
+            System.out.println(" Pasos del robot " + i);
+        }
     }
+
 }
