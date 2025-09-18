@@ -73,13 +73,13 @@ public class Main {
         } else {
             System.out.println(" La velocidad no es segura");
         }
-    }
+    }//Ejercicio 7
 
     public static void movimientoEjecutado(int n) {
         for (int i = 1; i <= n; i++) {
             System.out.println(" Movimiento ejecutado");
         }
-    }
+    }//Ejercicio 8
 
     public static void temperaturaRobot(int n) {
         if (n < 40) {
@@ -87,7 +87,7 @@ public class Main {
         } else {
             System.out.println(" El robot debe enfriarse, esta a " + n + " Grados");
         }
-    }
+    }//Ejercicio 9
 
     public static void lecturaSensores(int n, int x, int y) {
         if (n < x && n < y) {
